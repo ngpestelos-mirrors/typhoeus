@@ -678,6 +678,10 @@ Running the specs should be as easy as:
 bundle install
 bundle exec rake
 ```
+
+Run `COVERAGE=true bundle exec rake` to write an HTML report to `coverage/`.
+CI publishes the report as a build artifact.
+
 ## Semantic Versioning
 
 This project conforms to [semver](http://semver.org/).
